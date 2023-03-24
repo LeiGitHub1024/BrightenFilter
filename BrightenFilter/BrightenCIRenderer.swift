@@ -67,7 +67,7 @@ class BrightenCIRenderer: FilterRenderer {
         //查看输入pixelbuffer尺寸
         let originWidth = CVPixelBufferGetWidth(pixelBuffer);
         let originHeight = CVPixelBufferGetHeight(pixelBuffer);
-        print(originWidth,originHeight)
+//        print(originWidth,originHeight)
 
         // 调用resizepixelBuffer方法
         let resizedPixelBuffer = resizePixelBuffer(pixelBuffer, width: 1104, height: 828)
